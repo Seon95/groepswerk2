@@ -1,0 +1,13 @@
+{
+  "name": "groepswerk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vite.config.js",
+  "scripts": {
+    "start": "vite build"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
