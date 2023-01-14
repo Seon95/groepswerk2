@@ -30,8 +30,8 @@ $mysqli->close();
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
-  <link rel="stylesheet" href="/css/shop.css"/>
-  
+  <link rel="stylesheet" href="/css/shop.css" />
+
 
 
 
@@ -50,16 +50,86 @@ $mysqli->close();
           <li>
             <a href="index.php"><i class="bi bi-house-door"></i>Home</a>
           </li>
-          <a href="shop.php">
-          <li><i class="bi bi-cart3"></i>Shop</li></a>
+
+          <li><i class="bi bi-cart3"></i>Cart</li>
+
         </ul>
       </div>
     </nav>
     <hr />
 
 
+
+
+
     <main>
-      <h1 class="title">Our Products</h1>
+      <h1 class="sale">50% SALE!</h1>
+
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img src="./images/Product_example_liverpool.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_chelsea.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_atletico.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_astonVilla.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example9.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example8.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example4.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/png_webshop_juventus.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_copia.jpg" alt="productImage" />
+          </div>
+
+          <!-- same slides copied  -->
+
+          <div class="slide">
+            <img src="./images/Product_example_liverpool.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_chelsea.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_atletico.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_astonVilla.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example9.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example8.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example4.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/png_webshop_juventus.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_copia.jpg" alt="productImage" />
+          </div>
+        </div>
+      </div>
+
+
+
+      <h1 class="title">OUR PRODUCTS</h1>
       <div class="filters-wrapper">
 
         <div id="filter-buttons">
