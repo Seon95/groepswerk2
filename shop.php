@@ -63,70 +63,10 @@ $mysqli->close();
 
 
     <main>
-      <h1 class="sale">50% SALE!</h1>
 
-      <div class="slider">
-        <div class="slide-track">
-          <div class="slide">
-            <img src="./images/Product_example_liverpool.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example_chelsea.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example_atletico.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example_astonVilla.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example9.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example8.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example4.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/png_webshop_juventus.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example_copia.jpg" alt="productImage" />
-          </div>
-
-          <!-- same slides copied  -->
-
-          <div class="slide">
-            <img src="./images/Product_example_liverpool.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example_chelsea.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example_atletico.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example_astonVilla.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example9.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example8.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example4.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/png_webshop_juventus.png" alt="productImage" />
-          </div>
-          <div class="slide">
-            <img src="./images/product_example_copia.jpg" alt="productImage" />
-          </div>
-        </div>
-      </div>
-
+      <!-- <div class="stripes">
+        <img align="left" src="./images/stripystripe2.png" alt="stripes">
+      </div> -->
 
 
       <h1 class="title">OUR PRODUCTS</h1>
@@ -169,7 +109,7 @@ $mysqli->close();
             <span class="close">&times;</span>
 
             <!-- Modal Content (The Image) -->
-            <img class="modal-content" id="img">
+            <img class="modal-content" id="img01">
 
             <!-- Modal Caption (Image Text) -->
             <div id="caption"></div>
@@ -183,6 +123,81 @@ $mysqli->close();
 
         <script src="./js/filter.js" defer></script>
       </section>
+
+      <h1 class="sale">You might also like</h1>
+
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img src="./images/Product_example_liverpool.png" alt="productImage" onclick="onClick(this)" class="modal-hover-opacity" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_chelsea.png" alt="productImage" onclick="onClick(this)" class="modal-hover-opacity" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_atletico.png" alt="productImage" onclick="onClick(this)" class="modal-hover-opacity" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_astonVilla.png" alt="productImage" onclick="onClick(this)" class="modal-hover-opacity" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example9.png" alt="productImage" onclick="onClick(this)" class="modal-hover-opacity" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example8.png" alt="productImage" onclick="onClick(this)" class="modal-hover-opacity" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example4.png" alt="productImage" onclick="onClick(this)" class="modal-hover-opacity" />
+          </div>
+          <div class="slide">
+            <img src="./images/png_webshop_juventus.png" alt="productImage" onclick="onClick(this)" class="modal-hover-opacity" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_copia.jpg" alt="productImage" onclick="onClick(this)" class="modal-hover-opacity" />
+          </div>
+
+          <!-- same slides copied  -->
+
+          <div class="slide">
+            <img src="./images/Product_example_liverpool.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_chelsea.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_atletico.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_astonVilla.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example9.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example8.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example4.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/png_webshop_juventus.png" alt="productImage" />
+          </div>
+          <div class="slide">
+            <img src="./images/product_example_copia.jpg" alt="productImage" />
+          </div>
+        </div>
+
+
+        <div id="modal01" class="modal2" onclick="this.style.display='none'">
+          <span class="close2">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <div class="modal-content2">
+            <img id="img01" style="max-width:100%">
+          </div>
+        </div>
+      </div>
+
+
+
 
     </main>
 
@@ -216,7 +231,9 @@ $mysqli->close();
 
 
     </footer>
+
     <script src="./js/modalImg.js"></script>
+    <script src="./js/shopModal.js"></script>
   </div>
 
 </body>
