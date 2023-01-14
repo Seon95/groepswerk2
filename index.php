@@ -9,57 +9,55 @@ $manifestObject = json_decode($manifest, true);
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
-    <title>Home</title>
-    <?php
-    //hieronder printen we de link-href en de script-src uit. met <?= doe je automatisch een echo.
-    ?>
-    <link rel="stylesheet" href="./dist/<?= $manifestObject["js/index.js"]["css"][0] ?>">
-    <script src="./dist/<?= $manifestObject["js/index.js"]["file"] ?>"></script>
+  <title>Home</title>
+  <?php
+  //hieronder printen we de link-href en de script-src uit. met <?= doe je automatisch een echo.
+  ?>
+  <link rel="stylesheet" href="./dist/<?= $manifestObject["js/index.js"]["css"][0] ?>">
+  <script src="./dist/<?= $manifestObject["js/index.js"]["file"] ?>"></script>
+  <link rel="stylesheet" href="./css/style.css">
 
-<title>Home</title>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <nav>
-          <div class="links">
-            <img class="logoo" src="/images/futshirt_logo_gimp.png" alt="" />
-          </div>
+  <title>Home</title>
+</head>
 
-          <div class="rechts">
-            <ul>
-              <li><a href="/login/auth.php"> <img src="/images/icons8-male-user-32.png" alt=""> Inloggen </a></li>
-              <li><a href="shop.php"> <img src="/images/icons8-shirt-shopping-32.png" alt=""> Shop</a></li>
-              <li><a href="index.php"> <img src="/images/icons8-business-32.png" alt="">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-        <hr />
-      </header>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <div class="links">
+          <img class="logoo" src="/images/futshirt_logo_gimp.png" alt="" />
+        </div>
 
-      <main>
-        <section>
-          <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            deleniti aperiam qui, a laboriosam corporis?
-          </h1>
-          <h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-            nulla.
-          </h2>
-          <article>
-            <button class="button-64" role="button">
-              <span class="text"><a href="shop.php">Shop</a></span>
-          </article>
-         
-          </button>
-          <aside>
-            <article>
+        <div class="rechts">
+          <ul>
+            <li><a href="/login/auth.php"> <img src="/images/icons8-male-user-32.png" alt=""> Inloggen </a></li>
+            <li><a href="shop.php"> <img src="/images/icons8-shirt-shopping-32.png" alt=""> Shop</a></li>
+            <li><a href="index.php"> <img src="/images/icons8-business-32.png" alt="">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <hr />
+    </header>
+
+    <main>
+      <section>
+        <h1>
+          NEW KITS 2022-2023 SEASON OUT NOW!
+        </h1>
+        <br>
+        <h1>
+          BUY RETRO CR. RONALDO REAL MADRID
+        </h1>
+
+
+        <aside>
+          <article class="carousel-container">
+            <div class="carousel">
               <figure>
                 <h3>BEST SELLERS</h3>
                 <div class="container2">
@@ -68,60 +66,75 @@ $manifestObject = json_decode($manifest, true);
                   <button id="right-btn"><i class="arrow"></i></button>
                 </div>
               </figure>
+              <article>
+                <button class="button-64" role="button">
+                  <span class="text"><a href="shop.php">SHOP NOW</a></span>
+              </article>
+            </div>
 
-              <script src="/js/carousel.js"></script>
-            </article>
-          
-          
-          </aside>
-         
-        </section>
+            <script src="/js/carousel.js"></script>
+            <h2>
+              ALL SHIRTS ALL COMPETITIONS
+            </h2>
+          </article>
+        </aside>
+      </section>
 
-        <figure>
-          <img id=cristiano src="/images/1b60d4075bc1a01a0454405004c40387.png" alt="" />
-        </figure>
-      </main>
 
-      <div class="line2"></div>
-      <hr />
 
-      <footer>
-        <div class="footer-content">
-          <h3>Futshirt</h3>
-          <!--add all information -->
-          <p>Futshirt inc.</p>
-        </div>
-        <ul class="socials">
-          <li>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-youtube"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-linkedin-square"></i></a>
-          </li>
-        </ul>
 
-        <div class="footer-bottom">
-          <!-- add all information -->
-          <p>copyright &copy;2021 <a href="#">Futshirt</a></p>
-          <div class="footer-menu">
-            <ul class="f-menu">
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Contact</a></li>
-              <li><a href="">Blog</a></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+
+
+
+      <figure class="ronaldo">
+        <img id=cristiano src="/images/1b60d4075bc1a01a0454405004c40387.png" alt="" />
+      </figure>
+    </main>
+
+    <div class="line2"></div>
+    <hr />
+    <div class="footer-logo">
+      <img src="images/futshirt_logo_gimp.png" alt="">
     </div>
-  </body>
+
+    <footer>
+      <div class="footer-content">
+        <h3>Futshirt</h3>
+        <!--add all information -->
+        <p>Futshirt inc.</p>
+      </div>
+      <ul class="socials">
+        <li>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-google-plus"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-linkedin-square"></i></a>
+        </li>
+      </ul>
+
+      <div class="footer-bottom">
+        <!-- add all information -->
+        <p>copyright &copy;2021 <a href="#">Futshirt</a></p>
+        <div class="footer-menu">
+          <ul class="f-menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
