@@ -140,7 +140,7 @@ $mysqli->close();
             <img src="./images/product_example_atletico.png" alt="productImage" onclick="onClick(this)" class="modal-hover-opacity" />
           </div>
           <div class="slide">
-            <img src="./images/product_example_astonVilla.png" alt="productImage" onclick="onClick(this)" class="modal-hover-opacity" />
+            <img src="./images/product_example_astonVilla.jpeg" alt="productImage" onclick="onClick(this)" class="modal-hover-opacity" />
           </div>
           <div class="slide">
             <img src="./images/product_example9.png" alt="productImage" onclick="onClick(this)" class="modal-hover-opacity" />
