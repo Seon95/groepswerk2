@@ -51,7 +51,7 @@ $manifestObject = json_decode($manifest, true);
         </h1>
         <br>
         <h1>
-          BUY RETRO CR. RONALDO REAL MADRID
+          BUY RETRO Cr. RONALDO REAL MADRID
         </h1>
 
 
