@@ -362,7 +362,7 @@ h2 {
   font-weight: 800;
   margin-left: 50%;
   color: #ebcb79;
-  margin-top: 200px;
+  margin-top: 300px;
   animation: animate2 1s ease-in-out infinite alternate;
 
   /* margin-top: 100px; */
@@ -472,6 +472,9 @@ h3 {
   img#cristiano {
     padding: 0;
   }
+  /* .footer {
+      display: none;
+    } */
 }
 
 @media (max-width: 500px) {
@@ -482,13 +485,23 @@ h3 {
   }
 }
 @media (max-width: 700px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    /* font-size: 13px; */
+    width: 100vw;
+  }
   .links {
     display: block;
     margin: auto;
     /* align-items: center; */
   }
   .rechts {
-    display: block;
     margin: auto;
+  }
+  .footer-logo {
+    display: none;
   }
 }
