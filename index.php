@@ -100,7 +100,6 @@ $manifestObject = json_decode($manifest, true);
     <footer>
       <div class="footer-content">
         <h3>Futshirt</h3>
-        <!--add all information -->
         <p>Futshirt inc.</p>
       </div>
       <ul class="socials">
@@ -122,7 +121,6 @@ $manifestObject = json_decode($manifest, true);
       </ul>
 
       <div class="footer-bottom">
-        <!-- add all information -->
         <p>copyright &copy;2021 <a href="#">Futshirt</a></p>
         <div class="footer-menu">
           <ul class="f-menu">
