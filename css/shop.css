@@ -463,6 +463,7 @@ footer {
 
 .slide-track {
   display: flex;
+  /* amount of slides x image width*/
   width: calc(250px * 18);
   animation: scroll 40s linear infinite;
 }

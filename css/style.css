@@ -64,6 +64,9 @@ nav ul li a:hover:after {
 nav ul li a:hover {
   animation: animate2 1s ease-in-out infinite alternate;
 }
+.logoo {
+  padding: 10px;
+}
 
 /**/
 
