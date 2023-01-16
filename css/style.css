@@ -64,9 +64,6 @@ nav ul li a:hover:after {
 nav ul li a:hover {
   animation: animate2 1s ease-in-out infinite alternate;
 }
-.logoo {
-  padding: 10px;
-}
 
 /**/
 
@@ -75,9 +72,13 @@ figure img {
   height: 450px;
 }
 
-@media (min-width: 700px) {
+@media (max-width: 700px) {
   main {
     padding-top: 30px;
+  }
+
+  img.logoo {
+    padding-right: 40px;
   }
 }
 main {

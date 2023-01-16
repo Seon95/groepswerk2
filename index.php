@@ -35,7 +35,7 @@ $manifestObject = json_decode($manifest, true);
 
         <div class="rechts">
           <ul>
-            <li><a href="/login/auth.php"> <img src="/images/icons8-male-user-32.png" alt=""> Inloggen </a></li>
+            <li><a href="/login/auth.php"> <img src="/images/icons8-male-user-32.png" alt=""> Admin </a></li>
             <li><a href="shop.php"> <img src="/images/icons8-shirt-shopping-32.png" alt=""> Shop</a></li>
             <li><a href="index.php"> <img src="/images/icons8-business-32.png" alt="">Contact</a></li>
           </ul>
